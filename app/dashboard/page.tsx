@@ -47,8 +47,8 @@ export default function DashboardPage() {
         return
       }
 
-      // Set balance to 5.5 million EUR
-      currentUser.balance = 5500000
+      // Set balance to 6 million EUR
+      currentUser.balance = 6000000
       setUser(currentUser)
       setLoading(false)
     }
